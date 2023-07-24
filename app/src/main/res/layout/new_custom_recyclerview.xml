@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/poppins"
+        android:text="Title"
+        android:textColor="#203B54"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAttendee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="23dp"
+        android:orientation="horizontal">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_location_on_24">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Start_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="180dp"
+            android:fontFamily="@font/poppins"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="#203B54"
+            android:textSize="16sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:fontFamily="@font/poppins"
+        android:text="Time"
+        android:textAlignment="center"
+        android:textColor="#9A9A9A"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/baseline_calendar_month_24">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="180dp"
+            android:fontFamily="@font/poppins"
+            android:text="Location"
+            android:textAlignment="center"
+            android:textColor="#203B54"
+            android:textSize="16sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="150dp"
+        android:fontFamily="@font/poppins"
+        android:text="Adresss"
+        android:textAlignment="center"
+        android:textColor="#9A9A9A"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/enterCode"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:text="Enter Code">
+
+        </Button>
+
+        <Button
+            android:id="@+id/takeSurvey"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:text="Take Survey">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/poppins"
+        android:text="Speaker"
+        android:textColor="#203B54"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSpeaker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/poppins"
+        android:text="Registration Links"
+        android:textColor="#203B54"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/nameOfCompany"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Craxinno Technology"
+        android:textSize="16sp">
+
+    </Button>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/poppins"
+        android:text="Documents"
+        android:textColor="#203B54"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/documents"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="FeatureList (DOC)"
+        android:textSize="16sp">
+
+    </Button>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/poppins"
+        android:text="Description"
+        android:textColor="#203B54"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="33dp"
+        android:fontFamily="@font/poppins"
+        android:paddingBottom="10dp"
+        android:text="Description List"
+        android:textColor="#203B54"
+        android:textSize="14sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:fontFamily="@font/poppins"
+        android:text="Sponser Name"
+        android:textColor="#203B54"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:id="@+id/CompanyImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="135dp"
+
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/company_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Apple"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="32sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
